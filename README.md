@@ -77,7 +77,7 @@ SMTP_FROM_NAME="Tu_nombre"
 
 ## Créditos
 
-Desarrollado por Jafeth Daniel Gamboa Baas para la asignatura de Programación Web, 7SA.
+Desarrollado por Jafeth Daniel Gamboa Baas
 
 ## Derechos de Autor
 
