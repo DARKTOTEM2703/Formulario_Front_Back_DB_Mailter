@@ -70,14 +70,17 @@ SMTP_FROM_NAME="Tu_nombre"
 2. Ejecuta `composer install` para instalar las dependencias de PHP.
 3. Configura el archivo `.env` con tus credenciales de base de datos y SMTP.
 4. Importa el archivo `formulario.sql` en tu servidor de base de datos.
+5. Abre `index.html` en tu navegador para acceder al formulario.
 
-5. Completa el formulario con tus datos personales.
-6. Haz clic en "Enviar".
-7. Recibirás un correo de confirmación si los datos se han enviado correctamente.
+## Uso
+
+1. Completa el formulario con tus datos personales.
+2. Haz clic en "Enviar".
+3. Recibirás un correo de confirmación si los datos se han enviado correctamente.
 
 ## Créditos
 
-Desarrollado por Jafeth Daniel Gamboa Baas
+Desarrollado con 💻 y ☕ por Jafeth Daniel Gamboa Baas
 
 ## Derechos de Autor
 
