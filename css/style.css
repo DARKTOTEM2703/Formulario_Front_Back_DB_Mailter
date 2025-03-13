@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.barraamarilla {
+  background-color: rgb(234, 151, 13);
+  height: 1.3rem;
+}
+.contenedor_azul {
+  background-color: rgb(4, 18, 55);
+  height: 15rem;
+  text-align: center;
+}
+.logo {
+  padding: 2rem;
+  display: inline-block;
+}
+.contenedor2 {
+  background-color: rgb(240, 243, 248);
+  height: 6rem;
+}
+.contenedor2 p {
+  color: rgb(8, 109, 151);
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.barritaroja {
+  background-color: rgb(197, 17, 16);
+  width: 4rem;
+  height: 0.3rem;
+  margin: auto;
+}
+.contenedorformulario fieldset {
+  border: 0.2rem solid rgb(8, 109, 151);
+  border-radius: 0.4rem;
+  width: 95%;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+.tituloform {
+  color: rgb(234, 151, 13);
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.subtituform {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+.input1 {
+  font-family: "Arial", sans-serif;
+  font-size: 1.3rem;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  width: calc(47% - 1rem);
+  padding: 1rem;
+  border-radius: 0.4rem;
+  box-sizing: border-box;
+}
+.interes {
+  font-family: "Arial", sans-serif;
+  font-size: 1.3rem;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  width: calc(47% - 1rem);
+  padding: 1rem;
+  border-radius: 0.4rem;
+  box-sizing: border-box;
+}
+select {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: "Arial", sans-serif;
+  font-size: 1.3rem;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  width: calc(47% - 1rem);
+  padding: 1rem;
+  border-radius: 0.4rem;
+  box-sizing: border-box;
+}
+.botonenviar {
+  display: inline-block;
+  vertical-align: top;
+}
+.radio {
+  padding-top: 2rem;
+  padding-left: 200px;
+  grid-column: 2 / 3;
+  margin-left: 3rem;
+  display: inline-block;
+  transform: scale(1.2);
+}
+.radio label {
+  font-family: "Arial", sans-serif;
+  margin-right: 1rem;
+}
+.botonenviar {
+  grid-column: 1 / 2;
+  width: calc(47% - 1rem);
+  margin-left: 2rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1.3rem;
+  border-radius: 0.4rem;
+  background-color: rgb(197, 17, 16);
+  color: white;
+  border: none;
+  cursor: pointer;
+  align-self: center;
+}
+footer {
+  background-color: rgb(4, 18, 55);
+  height: 13.2rem;
+}
+footer p {
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  padding-top: 2rem;
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .botonenviar {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .radio {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    grid-column: 2 / 3;
+    margin-left: 3rem;
+    display: inline-block;
+    transform: scale(1.2);
+  }
+  .radio label {
+    font-family: "Arial", sans-serif;
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .botonenviar {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .radio {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    grid-column: 2 / 3;
+    margin-left: 3rem;
+    display: inline-block;
+    transform: scale(1.2);
+  }
+  .radio label {
+    font-family: "Arial", sans-serif;
+    margin-right: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .contenedor_azul {
+    height: auto;
+    padding: 1rem;
+  }
+  .contenedor2 p {
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+  }
+  .tituloform {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+  .subtituform {
+    font-size: 1.5rem;
+  }
+  .input1,
+  .interes,
+  select,
+  .botonenviar {
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .botonenviar {
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .radio {
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(1.2);
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .radio label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  }
+  .contenedorformulario fieldset {
+    text-align: center;
+  }
+  footer {
+    height: auto;
+    padding: 1rem;
+  }
+  footer p {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+  }
+}

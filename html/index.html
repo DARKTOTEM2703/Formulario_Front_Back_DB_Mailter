@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario con Validación</title>
+    <link rel="stylesheet" href="..\css\style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="..\js\validacion.js"></script>
+  </head>
+  <body>
+    <div class="barraamarilla"></div>
+    <div class="contenedor_azul">
+      <img
+        class="logo"
+        src="..\img\logo_cabecera.png"
+        alt="Logo"
+        class="logo"
+      />
+    </div>
+    <div class="contenedor2">
+      <p>déjanos conocerte</p>
+      <div class="barritaroja"></div>
+    </div>
+    <div class="contenedorformulario">
+      <fieldset>
+        <p class="tituloform">¡Compártenos tu información!</p>
+        <p class="subtituform">
+          Dejanos tus datos personales y nosotros nos comunicaremos contigo lo
+          más pronto posible.
+        </p>
+        <form action="..\php\form.php" method="POST">
+          <input
+            class="input1"
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Nombre completo *"
+            required
+          />
+          <input
+            class="input1"
+            type="email"
+            name="correo"
+            id="correo"
+            placeholder="Correo Electronico *"
+            required
+          />
+          <input
+            class="input1"
+            type="text"
+            name="Celular"
+            id="Celular"
+            placeholder="Celular"
+            required
+          />
+          <input
+            class="input1"
+            type="text"
+            name="Ciudad"
+            id="Ciudad"
+            placeholder="Ciudad"
+          />
+          <input
+            class="input1"
+            type="text"
+            name="localidad"
+            id="localidad"
+            placeholder="Localidad"
+          />
+          <input
+            class="input1"
+            type="text"
+            name="Estado"
+            id="Estado"
+            placeholder="Estado"
+          />
+          <input
+            class="input1"
+            type="text"
+            name="colonia"
+            id="colonia"
+            placeholder="Colonia"
+          />
+          <select class="interes" name="interes" id="interes" required>
+            <option value="" disabled selected>
+              Elige tu área de interes *
+            </option>
+            <option value="cajas">Cajas</option>
+            <option value="Servicios">Servicios</option>
+            <option value="Asesoriamiento">Asesoriamiento Financiero</option>
+            <option value="Gestorías">Gestorías y Cobranza</option>
+            <option value="Crédito">Crédito</option>
+            <option value="Jurídico">Jurídico</option>
+            <option value="Archivo">Archivo</option>
+            <option value="Mercadotecnia">Mercadotecnia</option>
+            <option value="Diligencias">Diligencias</option>
+            <option value="Compras">Compras</option>
+            <option value="Intendencia">Intendencia</option>
+            <option value="Auditoría">Auditoría</option>
+            <option value="Capital">Capital Humano</option>
+            <option value="Mantenimiento">Mantenimiento</option>
+            <option value="Sistemas">Sistemas</option>
+            <option value="Contabilidad">Contabilidad</option>
+            <option value="Administración">Administración</option>
+          </select>
+          <button class="botonenviar" type="submit">Enviar</button>
+          <div class="radio">
+            <input
+              type="radio"
+              id="fisica"
+              name="tipo_persona"
+              value="fisica"
+              required
+            />
+            <label for="fisica">Persona Física</label>
+            <input
+              type="radio"
+              id="moral"
+              name="tipo_persona"
+              value="moral"
+              required
+            />
+            <label for="moral">Persona Moral</label>
+          </div>
+        </form>
+      </fieldset>
+      <footer>
+        <p>Jafeth Daniel Gamboa Baas</p>
+        <p>7SA</p>
+        <p>Programacion web</p>
+      </footer>
+    </div>
+  </body>
+</html>
