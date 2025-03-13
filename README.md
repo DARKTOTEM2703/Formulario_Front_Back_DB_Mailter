@@ -1,6 +1,6 @@
 # Proyecto de Formulario con Validación, Backend y Base de Datos
 
-Este proyecto es una aplicación web que permite a los usuarios enviar sus datos personales a través de un formulario. La aplicación incluye validación en el frontend, procesamiento en el backend y almacenamiento en una base de datos. Además, se envía un correo de confirmación al usuario después de enviar el formulario.
+¡Bienvenido a este increíble proyecto de formulario web! Esta aplicación permite a los usuarios enviar sus datos personales a través de un formulario elegante y funcional. La aplicación incluye validación en el frontend, procesamiento en el backend y almacenamiento en una base de datos. Además, se envía un correo de confirmación al usuario después de enviar el formulario.
 
 ## Estructura del Proyecto
 
@@ -63,17 +63,17 @@ SMTP_FROM_NAME="Tu_nombre"
 
 ## Instrucciones de Instalación
 
-1. Clona el repositorio en tu servidor local.
+1. Clona el repositorio en tu servidor local:
+   ```bash
+   git clone https://github.com/DARKTOTEM2703/Formulario_Front_Back_DB_Mailter.git
+   ```
 2. Ejecuta `composer install` para instalar las dependencias de PHP.
 3. Configura el archivo `.env` con tus credenciales de base de datos y SMTP.
 4. Importa el archivo `formulario.sql` en tu servidor de base de datos.
-5. Abre `index.html` en tu navegador para acceder al formulario.
 
-## Uso
-
-1. Completa el formulario con tus datos personales.
-2. Haz clic en "Enviar".
-3. Recibirás un correo de confirmación si los datos se han enviado correctamente.
+5. Completa el formulario con tus datos personales.
+6. Haz clic en "Enviar".
+7. Recibirás un correo de confirmación si los datos se han enviado correctamente.
 
 ## Créditos
 
