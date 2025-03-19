@@ -80,8 +80,8 @@ SMTP_FROM_NAME="Tu_nombre"
 
 ## Créditos
 
-Desarrollado con 💻 y ☕ por Jafeth Daniel Gamboa Baas
+Desarrollado por Jafeth Daniel Gamboa Baas
 
 ## Derechos de Autor
 
-© 2023 Jafeth Daniel Gamboa Baas. Todos los derechos reservados. Este proyecto es propiedad del autor y está protegido por las leyes de derechos de autor. No se permite la reproducción, distribución ni modificación sin el permiso expreso del autor.
+© 2025 Jafeth Daniel Gamboa Baas. Todos los derechos reservados. Este proyecto es propiedad del autor y está protegido por las leyes de derechos de autor. No se permite la reproducción, distribución ni modificación sin el permiso expreso del autor.
